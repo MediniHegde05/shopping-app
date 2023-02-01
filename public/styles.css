@@ -56,11 +56,11 @@ width: 70px;
 
 .table thead th {
     vertical-align: bottom;
-    border-bottom: 2px solid #ffda84;
-    border-top: 1px solid #fdd26e;
-    background-color: #FFDB89;}
+    border-bottom: 2px solid #BAD7E9;
+    border-top: 1px solid #BAD7E9;
+    background-color: #BAD7E9}
 
 
  #table {
-    background-color:#FCF9BE;
+    background-color:#E8F3D6;
  }
