@@ -4,9 +4,7 @@ import { Button } from "react-bootstrap";
 import DeleteIcon from '@mui/icons-material/Delete';
 import QuantityInput from "./Quantity";
 import boximg from "../images/boximg.png";
-import { fontSize } from "@mui/system";
-import { hover } from "@testing-library/user-event/dist/hover";
-import { blue } from "@mui/material/colors";
+
 
 
 
@@ -41,7 +39,7 @@ function ProductTable() {
         {products.map((product, index) => (
           <tr key={index}>
           <td style={{padding :"15px", textAlign:"center", fontSize:'26px'}}><img className="boximg"
-          src={boximg} />  {product.name}</td>
+          src={boximg} alt="product-name"/>  {product.name}</td>
             <td style={{padding:"15px", textAlign:"center"}}>${product.price}</td>
             <td style={{padding:"8px", textAlign:"center"}}><QuantityInput product={product} /></td>
             <td><button style={{backgroundColor:"white", height:'40px', width:'40px',borderRadius:'0.25rem'}} onClick={() => handleDelete(index)}>
